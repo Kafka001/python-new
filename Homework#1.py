@@ -1,7 +1,7 @@
 x = int(input('insert figure from 0 to 9'))
 if 0<= x <= 3:
     n = str(raw_input('insert data '))
-    z = int(raw_input('how many times i need to show, whahahaha? '))
+    z = int(raw_input('how many times i need to show? '))
     print (n*z)
 elif 4 <= x <= 6:
     for i in range(1,11):
