@@ -1,4 +1,4 @@
-x = int(input('insert figure from 0 to 9'))
+x = int(input('insert integer from 0 to 9'))
 if 0<= x <= 3:
     n = str(raw_input('insert data '))
     z = int(raw_input('how many times i need to show? '))

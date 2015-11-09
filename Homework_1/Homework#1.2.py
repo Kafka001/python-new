@@ -1,6 +1,5 @@
 #-*- coding:utf-8 -*-
-import math
-x = int(raw_input(u"Пожалуйста введите свой возраст  " ))
+x = int(raw_input("Please insert your age  " ))
 if 0 <= x <= 7:
     print ("you have to go to kindergarden")
 elif 8 <= x <= 18:
