@@ -9,7 +9,7 @@ class Qu:
             for i in range(1,11):
                 print (y)
                 y += 1
-        elif 7 <= self.x <= 9:
+        elif 7 <= y <= 9:
             m = int(input('insert figure to count '))
             print y**m
         else:

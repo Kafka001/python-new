@@ -1,6 +1,5 @@
 x = int(raw_input("Please insert your age"))
 class ZuZu:
-    y = x
     def kinderg(self):
         return "you have to go to kindergarden"
     def school(self):
@@ -13,15 +12,15 @@ class ZuZu:
         return 'you can do whatever you want! you deserved it!'
     def __init__(self,y):
         if 0 <= y <= 7:
-            print(y.kinderg())
+            print(self.kinderg())
         elif 8 <= y <= 18:
-            print(y.school())
-        elif 19 <= y <= 25:
-            print(y.collage())
+            print(self.school())
+        elif 19 <= x <= 25:
+            print(self.collage())
         elif 26 <= y <= 60:
-            print(y.job())
+            print(self.job())
         elif 61 <= y <= 120:
-            print(y.oldman())
+            print(self.oldman())
         else:
             print ('errrrorrrr, this program is for human')
 b = ZuZu(x)
