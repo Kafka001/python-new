@@ -18,7 +18,8 @@ class KuKu(Juk):
         return jujuju**m
 
 class ZuZu(Juk,KuKu):
-    def lulu(self):
+    def __init__(self):
+        super(ZuZu, self).__init__(self)
         if 0<= self.inp <=3:
             print(self.firstfunc())
         elif 4<=self.inp<=6:
@@ -29,4 +30,4 @@ class ZuZu(Juk,KuKu):
             print('unavailable function')
 
 n = ZuZu()
-print(n.lulu())
+print(n)
