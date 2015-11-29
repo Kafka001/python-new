@@ -5,8 +5,8 @@ if 0<= x <= 3:
     print (n*z)
 elif 4 <= x <= 6:
     for i in range(1,11):
-        print (x)
         x += 1
+        print (x)
 elif 7<= x <=9:
     m = int(input('insert figure to count '))
     print x**m
